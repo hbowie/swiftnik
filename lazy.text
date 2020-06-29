@@ -1,0 +1,9 @@
+Title:  lazy
+
+Tags:   Swift
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Properties.html
+
+Body: 
+
+When the `lazy` modifier is applied to a property, it indicates that its initial value should not be calculated until the first time that it is used. 

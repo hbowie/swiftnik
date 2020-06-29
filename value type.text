@@ -1,0 +1,15 @@
+Title:  value type
+
+Tags:   concept
+
+Body: 
+
+Some types in Swift are value types, while others are [[reference type]]s. 
+
+When a value type is assigned or passed via an argument, the original is copied and a new instance of the type is created.  
+
+The following types in Swift are value types:
+
+* [[enum]]
+* [[struct]]
+* [[tuple]]

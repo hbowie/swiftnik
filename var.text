@@ -1,0 +1,16 @@
+Title:  var
+
+Tags:   Swift, keyword
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
+
+Code: 
+
+var currentLoginAttempt = 0
+
+
+Body: 
+
+Constants and variables associate a name (such as maximumNumberOfLoginAttempts or welcomeMessage) with a value of a particular type (such as the number 10 or the string "Hello"). The value of a constant can’t be changed once it’s set, whereas a variable can be set to a different value in the future.
+
+Constants and variables must be declared before they’re used. You declare constants with the `let` keyword and variables with the `var` keyword.

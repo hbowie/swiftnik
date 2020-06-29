@@ -1,0 +1,9 @@
+Title:  File Coordination
+
+Tags:   blog, files
+
+Link:   https://khanlou.com/2019/03/file-coordination/
+
+Body: 
+
+Talks about use of `NSFilePresenter` and `NSFileCoordinator`.

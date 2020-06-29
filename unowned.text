@@ -1,0 +1,15 @@
+Title:  unowned
+
+Tags:   Swift, keyword, memory management
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html
+
+Link 2: https://krakendev.io/blog/weak-and-unowned-references-in-swift
+
+Body: 
+
+Weak and unowned references enable one instance in a reference cycle to refer to the other instance without keeping a strong hold on it. The instances can then refer to each other without creating a strong reference cycle.
+
+Use a [[weak]] reference when the other instance has a shorter lifetime — that is, when the other instance can be deallocated first. 
+
+Use a weak reference whenever it is valid for that reference to become nil at some point during its lifetime. Conversely, use an unowned reference when you know that the reference will never be nil once it has been set during initialization.

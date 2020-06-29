@@ -1,0 +1,13 @@
+Title:  text field
+
+Tags:   AppKit
+
+Link:   https://developer.apple.com/documentation/appkit/nstextfield
+
+Index:  UI controls; text; 
+
+Body: 
+
+The NSTextField class is used for any sort of single-line text field, including field labels. 
+
+It's important to realize that NSTextField inherits from NSControl, and not from NSText.

@@ -1,0 +1,9 @@
+Title:  package
+
+Link:   https://developer.apple.com/documentation/xcode/creating_a_standalone_swift_package_with_xcode
+
+Body: 
+
+Swift packages are reusable components of Swift, Objective-C, Objective-C++, C, or C++ code. Use them to package executable code, for example a script, as an *executable product*, or create a package that vends shareable code as a *library product*. You can create Swift packages with Xcode.
+
+Swift packages contain source code but don’t support assets and resources. In addition, a Swift package can only depend on other Swift packages; binary dependencies aren’t supported.

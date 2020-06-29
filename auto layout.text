@@ -1,0 +1,8 @@
+Title:  auto layout
+
+Link:   https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html
+
+Body: 
+
+Auto Layout dynamically calculates the size and position of all the views in your view hierarchy, based on constraints placed on those views. 
+

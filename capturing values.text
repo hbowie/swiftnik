@@ -1,0 +1,10 @@
+Title:  capturing values
+
+Tags:   concept
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Closures.html
+
+Body: 
+
+A [[closure]] can capture constants and variables from the surrounding context in which it is defined. The closure can then refer to and modify the values of those constants and variables from within its body, even if the original scope that defined the constants and variables no longer exists.
+

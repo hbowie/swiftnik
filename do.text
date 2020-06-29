@@ -1,0 +1,24 @@
+Title:  do
+
+Tags:   Swift
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html
+
+Code: 
+
+do {
+    try expression
+    statements
+} catch pattern 1 {
+    statements
+} catch pattern 2 where condition {
+    statements
+} catch {
+    statements
+}
+
+
+Body: 
+
+Precedes a block of statements, possibly including some [[try]] attempts.  
+

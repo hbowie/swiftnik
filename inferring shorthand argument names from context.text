@@ -1,0 +1,15 @@
+Title:  inferring shorthand argument names from context
+
+Tags:   concept
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Closures.html
+
+Code: 
+
+reversedNames = names.sorted(by: >)
+
+
+Body: 
+
+When writing an inline [[closure expression]], [[shorthand argument names]] can be inferred through the simple inclusion of an operator. 
+

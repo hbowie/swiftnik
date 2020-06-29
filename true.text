@@ -1,0 +1,10 @@
+Title:  true
+
+Tags:   Swift, keyword
+
+Link:   https://developer.apple.com/documentation/swift/bool
+
+Body: 
+
+The keyword `true` is a boolean literal representing one of the two possible values for a [[Bool]] value type. 
+

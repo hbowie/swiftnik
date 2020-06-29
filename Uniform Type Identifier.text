@@ -1,0 +1,11 @@
+Title:  Uniform Type Identifier
+
+Alt:    UTI
+
+Link:   https://en.wikipedia.org/wiki/Uniform_Type_Identifier
+
+Link 2: https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html
+
+Body: 
+
+A Uniform Type Identifier (UTI) is a text string used on software provided by Apple Inc. to uniquely identify a given class or type of item. Apple provides built-in UTIs to identify common system objects – document or image file types, folders and application bundles, streaming data, clipping data, movie data – and allows third party developers to add their own UTIs for application-specific or proprietary uses. Support for UTIs was added in the Mac OS X 10.4 operating system, integrated into the Spotlight desktop search technology, which uses UTIs to categorize documents. 

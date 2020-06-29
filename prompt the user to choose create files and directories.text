@@ -1,0 +1,13 @@
+Title:  prompt the user to choose/create files and directories
+
+Tags:   AppKit, file
+
+Link:   https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/FileSystemProgrammingGuide/UsingtheOpenandSavePanels/UsingtheOpenandSavePanels.html
+
+Index:  file system; UI open/save; 
+
+Body: 
+
+Use NSOpenPanel and/or NSSavePanel to query the user for file and directory names and locations. 
+
+* [NSOpenPanel](https://developer.apple.com/documentation/appkit/nsopenpanel)

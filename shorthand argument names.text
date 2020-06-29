@@ -1,0 +1,15 @@
+Title:  shorthand argument names
+
+Tags:   concept
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Closures.html
+
+Code: 
+
+reversedNames = names.sorted(by: { $0 > $1 } )
+
+
+Body: 
+
+Swift automatically provides shorthand argument names to inline closures, which can be used to refer to the values of the closure’s arguments by the names $0, $1, $2, and so on.
+

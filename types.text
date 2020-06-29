@@ -1,0 +1,12 @@
+Title:  types
+
+Link:   https://docs.swift.org/swift-book/ReferenceManual/Types.html
+
+Body: 
+
+In some modern languages, everything is an object. In Swift, the equivalent atomic unit is a type: everything in Swift is a type of one sort or another. Named types include all of the following:
+
+* classes
+* structures
+* enumerations
+* protocols

@@ -1,0 +1,18 @@
+Title:  Intro
+
+Tags:   intro
+
+Body: 
+
+I've been working on app development using Swift since the beginning of 2019. The project I've been working on over this period is [Notenik][]. It's been available in the Mac App Store since June of 2019. 
+
+When I started to learn Swift, I had been coding a number of Mac desktop apps written in Java for a number of years, and so I was certainly no novice to programming or to development for the Mac. 
+
+And yet, despite having made a lot of progress over the last year and a half, I'm still constantly amazed at how hard it is to learn something new and to get it working reliably. Whenever I'm trying to do something new it feels like I'm playing [Colossal Cave][cave] all over again, wandering through a massive unmapped network, searching for the bits of treasure that might help me make a little progress.
+
+So this is my explorer's notebook, where I'm trying to record the bits that helped me along my way. I'm partially keeping these notes for my own use -- I can't possibly remember all this stuff, especially since I'm strictly an amateur, and still have a lot of things I want to do other than code. But I'm also publishing this collection on the web, in case it might accidentally help someone else as well. 
+
+If you have comments or corrections or suggestions, feel free to email me at <hb@hbowie.net>. 
+
+[cave]: https://en.wikipedia.org/wiki/Colossal_Cave_Adventure
+[notenik]: https://notenik.com

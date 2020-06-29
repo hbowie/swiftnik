@@ -1,0 +1,14 @@
+Title:  Assistant Editor
+
+Tags:   Xcode
+
+Index:  Xcode; 
+
+Body: 
+
+The Assistant Editor is a secondare editor that appears next to the primary editor, and can be opened when you have a storyboard open in the primary editor. Use of the Assistant Editor is sometimes necessary in order to connect an interface element in the storyboard to a spot in your Swift code. 
+
+Use any of the following actions to show the Assistant Editor without hiding the storyboard in the Main Editor. 
+
+* Menu item View -> Assistant Editor -> Show Assistant Editor
+* Keyboard shortcut ALT-CMD-RETURN
