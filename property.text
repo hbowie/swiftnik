@@ -1,0 +1,11 @@
+Title:  property
+
+Tags:   Swift
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Properties.html
+
+Timestamp: 20200717213534
+
+Body: 
+
+Properties associate values with a particular [[class]], [[struct]], or [[enum]]. Stored properties store constant and variable values as part of an instance, whereas computed properties calculate (rather than store) a value. Computed properties are provided by classes, structures, and enumerations. Stored properties are provided only by classes and structures.

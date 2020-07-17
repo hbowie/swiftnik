@@ -1,0 +1,15 @@
+Title:  struct
+
+Tags:   Swift, keyword
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html
+
+Link 2: https://www.hackingwithswift.com/read/0/15/structs
+
+Timestamp: 20200717205433
+
+Body: 
+
+Structures and classes are general-purpose, flexible constructs that become the building blocks of your program’s code. You define properties and methods to add functionality to your structures and classes using the same syntax you use to define constants, variables, and functions.
+
+Note that a struct is a [[value type]], whereas  a [[class]] is a [[reference type]]. 

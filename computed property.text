@@ -1,4 +1,4 @@
-Title:  computed properties
+Title:  computed property
 
 Tags:   Swift
 
@@ -42,6 +42,8 @@ var someProperty: String {
 someString = someObject.someProperty
 someObject.someProperty = "A new value for the property"
 
+
+Timestamp: 20200717202826
 
 Body: 
 

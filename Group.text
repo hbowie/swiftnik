@@ -1,0 +1,13 @@
+Title:  Group
+
+Tags:   SwiftUI
+
+Link:   https://developer.apple.com/documentation/swiftui/group
+
+Timestamp: 20200717210630
+
+Body: 
+
+Groups don't have any effect on the interface as it appears to the user; instead, they just provide a work-around for the limitation of only allowing ten child views within a parent. 
+
+For something similar that will be visual to a user, use a [[Section]] instead.

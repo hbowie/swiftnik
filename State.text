@@ -1,0 +1,15 @@
+Title:  State
+
+Tags:   SwiftUI
+
+Alt:    @State
+
+Link:   https://developer.apple.com/documentation/swiftui/state
+
+Timestamp: 20200717212756
+
+Body: 
+
+A property wrapper type that can read and write a value managed by SwiftUI.
+
+SwiftUI manages the storage of any property you declare as a state. When the state value changes, the view invalidates its appearance and recomputes the body. Use the state as the single source of truth for a given view.

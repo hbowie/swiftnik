@@ -1,0 +1,18 @@
+Title:  Form
+
+Tags:   SwiftUI
+
+Link:   https://developer.apple.com/documentation/swiftui/form
+
+Link 2: https://www.hackingwithswift.com/quick-start/swiftui/working-with-forms
+
+Timestamp: 20200717210312
+
+Body: 
+
+A container for grouping controls used for data entry, such as in settings or inspectors.
+
+A Form is a type of [[View]]. 
+
+Forms are scrolling lists of static controls like text and images, but can also include user interactive controls like text fields, toggle switches, buttons, and more.
+

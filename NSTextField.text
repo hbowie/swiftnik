@@ -1,10 +1,14 @@
-Title:  text field
+Title:  NSTextField
 
 Tags:   AppKit
+
+Alt:    text field
 
 Link:   https://developer.apple.com/documentation/appkit/nstextfield
 
 Index:  UI controls; text; 
+
+Timestamp: 20200717202826
 
 Body: 
 

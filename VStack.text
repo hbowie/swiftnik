@@ -1,0 +1,11 @@
+Title:  VStack
+
+Tags:   SwiftUI
+
+Link:   https://developer.apple.com/documentation/swiftui/vstack
+
+Timestamp: 20200717214653
+
+Body: 
+
+A SwiftUI [[View]] that arranges its components in a vertical stack. 
