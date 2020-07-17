@@ -6,6 +6,8 @@ Link:   https://developer.apple.com/documentation/swift/codable
 
 Link 2: https://www.swiftbysundell.com/basics/codable/
 
+Index:  Codable
+
 Body: 
 
 Codable is actually a [[typealias]] that combines two protocols —  Encodable and Decodable — into one. By conforming to either of those protocols when declaring a type, the compiler will attempt to automatically synthesize the code required to encode or decode an instance of that type, which will work as long as we’re only using stored properties that themselves are encodable/decodable.

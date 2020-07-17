@@ -10,4 +10,4 @@ Body:
 
 The keyword *in* is used within a [[closure expression]] to indicate  that the definition of the [[closure]]’s parameters and return type has finished, and the body of the closure is about to begin. 
 
-The keyword *in* is also used as part of a [[for]]-in loop.
+The keyword *in* is also used as part of a [[for]]-in [[loop]].

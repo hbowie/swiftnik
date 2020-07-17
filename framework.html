@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>framework | Swiftnik</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="stylesheet" href="mirror/fonts/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="mirror/fonts/equity_ta.css" type="text/css" />
+	<link rel="stylesheet" href="mirror/fonts/concourse_t4.css" type="text/css" />
+	<link rel="stylesheet" href="mirror/css/styles.css" type="text/css" />
+</head>
+<body>
+<div id="page-container">
+
+	<header>
+		<p id="site-title">
+			<a href="index.html">
+				Swiftnik
+			</a>
+		</p>
+		<p id="site-subtitle">A Swift Developer's Notebook</p>
+	</header>
+
+	<nav>
+		<ul>
+  		<li><a href="index.html">Home</a></li>
+  		<li><a href="intro.html">Intro</a></li>
+  		<li><a href="topics.html">Index</a></li>
+		</ul>
+	</nav>
+
+<div id="content">
+<h3>framework</h3>
+
+<p><em>Apple, bundle, framework, library</em></p>
+
+
+<p>A framework is a directory that encapsulates shared resources, such as a dynamic shared library, nib files, image files, localized strings, header files and reference documentation in a single package. </p>
+<p>On macOS frameworks are just libraries, packed into a <a href="bundle.html">bundle</a>. Within the bundle you will find an actual dynamic library (libWhatever.dylib). The difference between a bare library and the framework on Mac is that a framework can contain multiple different versions of the library. It can contain extra resources (images, localized strings, XML data files, UI objects, etc.) and unless the framework is released to public, it usually contains the necessary .h files you need to use the library.  </p>
+<p>Thus you have everything within a single package you need to use the library in your application, instead of a bunch of files to move around (a Mac bundle is just a directory on the Unix level, but the macOS treats it like a single file, pretty much like you have JAR files in Java and when you click it, you usually don't see what's inside, unless you explicitly select to show the content). </p>
+
+
+<hr />
+
+<p>Link: <a href="https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WhatAreFrameworks.html">https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WhatAreFrameworks.html</a></p>
+
+
+
+<hr>
+<p>Except where otherwise noted, <cite><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Swiftnik - A Swift Developer's Notebook</span></cite> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://hbowie.net" property="cc:attributionName" rel="cc:attributionURL">Herb Bowie</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+</div>
+</div>
+
+</body>
+</html>
