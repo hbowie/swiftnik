@@ -6,6 +6,10 @@ Link:   https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html
 
 Index:  continue; 
 
+Timestamp: 20200630194334
+
 Body: 
 
 The `continue` statement tells a [[loop]] to stop what it is doing and start again at the beginning of the next iteration through the loop.
+
+Contrast with [[break]].

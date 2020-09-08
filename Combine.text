@@ -1,0 +1,15 @@
+Title:  Combine
+
+Tags:   framework
+
+Link:   https://developer.apple.com/documentation/combine
+
+Link 2: https://www.swiftbysundell.com/basics/combine/
+
+Timestamp: 20200831204356
+
+Body: 
+
+The Combine framework provides a declarative Swift API for processing values over time. These values can represent many kinds of asynchronous events. Combine declares *publishers* to expose values that can change over time, and *subscribers* to receive those values from the publishers.
+
+The Combine framework provides Swift developers with a means of implementing [[reactive programming]]. 

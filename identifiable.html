@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Identifiable | Swiftnik</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="stylesheet" href="mirror/fonts/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="mirror/fonts/equity_ta.css" type="text/css" />
+	<link rel="stylesheet" href="mirror/fonts/concourse_t4.css" type="text/css" />
+	<link rel="stylesheet" href="mirror/css/styles.css" type="text/css" />
+</head>
+<body>
+	<div id="page-container">
+
+	<header>
+		<p id="site-title">
+			<a href="index.html">
+				Swiftnik
+			</a>
+		</p>
+		<p id="site-subtitle">A Swift Developer's Notebook</p>
+	</header>
+
+	<nav>
+		<ul>
+  		<li><a href="index.html">Index</a></li>
+  		<li><a href="intro.html">Intro</a></li>
+		</ul>
+	</nav>
+
+		<div id="content">
+			<h3>Identifiable</h3>
+
+<p>A protocol used to identify a <a href="type.html">type</a> that can be uniquely identified by an id.  <br />
+</p>
+
+
+			<p>For further info: </p>
+			<ul>
+				<li><a href="https://developer.apple.com/documentation/swift/identifiable">https://developer.apple.com/documentation/swift/identifiable</a></li>
+				<li>Link 2: <a href="https://nshipster.com/identifiable/">https://nshipster.com/identifiable/</a></li>
+			</ul>
+			<p>Sample Code: </p>
+			<pre><code>
+protocol Identifiable {
+    associatedtype ID: Hashable
+    var id: ID { get }
+}
+
+			</code></pre>
+
+			<hr>
+
+			<p><a href="index.html"><em>Back to Index =&gt;</em></a></p>
+
+		</div>
+	</div>
+
+</body>
+</html>

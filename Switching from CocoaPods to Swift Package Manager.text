@@ -1,10 +1,12 @@
 Title:  switching from CocoaPods to Swift Package Manager
 
-Tags:   Xcode
+Tags:   Xcode, package
 
 Link:   https://swift.org/package-manager/
 
 Index:  package; module; dependencies; tools; CocoaPods; 
+
+Timestamp: 20200629205423
 
 Body: 
 

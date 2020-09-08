@@ -1,0 +1,13 @@
+Title:  declarative programming
+
+Link:   https://en.wikipedia.org/wiki/Declarative_programming
+
+Timestamp: 20200831203732
+
+Body: 
+
+A style of computer programming that allows the user (aka developer) to declare the results they would like to see, without having to specify exactly how the results should be achieved. 
+
+[[SwiftUI]] offers a means of using declarative programming via Swift. 
+
+Contrast with [[imperative programming]]. 

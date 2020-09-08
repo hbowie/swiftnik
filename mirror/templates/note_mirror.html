@@ -18,28 +18,19 @@
 		<div id="content">
 			<h3>=$title$=</h3>
 
-<?if "=$tags$=" ?>
-			<p><em>=$tags$=</em></p>
-<?endif?>
-
-<?if "=$alt$=" ?>
-			<p>Alt: =$alt$=</p>
-<?endif?>
-
 <?if "=$body$=" ?>
 =$body&w1o$=
 <?endif?>
 
-<hr />
-
 <?if "=$link$=" ?>
-			<p>Link: <a href="=$link$=">=$link$=</a></p>
-<?endif?>
-
+			<p>For further info: </p>
+			<ul>
+				<li><a href="=$link$=">=$link$=</a></li>
 <?if "=$link2$=" ?>
-			<p>Link 2: <a href="=$link2$=">=$link2$=</a></p>
+				<li>Link 2: <a href="=$link2$=">=$link2$=</a></li>
 <?endif?>
-
+			</ul>
+<?endif?>
 <?if "=$code$=" ?>
 			<p>Sample Code: </p>
 			<pre><code>
@@ -48,7 +39,8 @@
 <?endif?>
 
 			<hr>
-			<p>Except where otherwise noted, <cite><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Swiftnik - A Swift Developer's Notebook</span></cite> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://hbowie.net" property="cc:attributionName" rel="cc:attributionURL">Herb Bowie</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+			<p><a href="index.html"><em>Back to Index =&gt;</em></a></p>
 
 		</div>
 	</div>

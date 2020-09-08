@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>delete a file or folder | Swiftnik</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<title>delete a file or folder | Swiftnik</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="favicon.png" />
 	<link rel="stylesheet" href="mirror/fonts/stylesheet.css" type="text/css" />
 	<link rel="stylesheet" href="mirror/fonts/equity_ta.css" type="text/css" />
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="mirror/css/styles.css" type="text/css" />
 </head>
 <body>
-<div id="page-container">
+	<div id="page-container">
 
 	<header>
 		<p id="site-title">
@@ -24,17 +24,13 @@
 
 	<nav>
 		<ul>
-  		<li><a href="index.html">Home</a></li>
+  		<li><a href="index.html">Index</a></li>
   		<li><a href="intro.html">Intro</a></li>
-  		<li><a href="topics.html">Index</a></li>
 		</ul>
 	</nav>
 
-<div id="content">
-<h3>delete a file or folder</h3>
-
-<p><em>FileManager, Foundation, files</em></p>
-
+		<div id="content">
+			<h3>delete a file or folder</h3>
 
 <p>You can use the FileManager.default singleton to delete a file or folder, but you should be aware that there are two different options here. </p>
 <ul>
@@ -44,13 +40,12 @@
 <p>Both will need to be wrapped in <a href="do.html">do</a>-<a href="try.html">try</a>-<a href="catch.html">catch</a> blocks. </p>
 
 
-<hr />
-
-<p>Link: <a href="https://developer.apple.com/documentation/foundation/filemanager">https://developer.apple.com/documentation/foundation/filemanager</a></p>
-
-
-<p>Sample Code: </p>
-<pre><code>
+			<p>For further info: </p>
+			<ul>
+				<li><a href="https://developer.apple.com/documentation/foundation/filemanager">https://developer.apple.com/documentation/foundation/filemanager</a></li>
+			</ul>
+			<p>Sample Code: </p>
+			<pre><code>
 // Delete an item immediately
 do {
 	try FileManager.default.removeItem(at: newURL)
@@ -65,13 +60,14 @@ do {
 	print("Could not trash the item at \(oldURL.path)")
 }
 
-</code></pre>
+			</code></pre>
 
-<hr>
-<p>Except where otherwise noted, <cite><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Swiftnik - A Swift Developer's Notebook</span></cite> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://hbowie.net" property="cc:attributionName" rel="cc:attributionURL">Herb Bowie</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+			<hr>
 
-</div>
-</div>
+			<p><a href="index.html"><em>Back to Index =&gt;</em></a></p>
+
+		</div>
+	</div>
 
 </body>
 </html>

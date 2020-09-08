@@ -1,0 +1,15 @@
+Title:  Adding Package Dependencies to Your App
+
+Tags:   package
+
+Link:   https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app
+
+Timestamp: 20200824210037
+
+Body: 
+
+How to add a Swift package to your project. 
+
+Basically, select File > Swift Packages > Add Package Dependency and enter the package's repository URL (generally found on GitHub). 
+
+Also see [[Editing a Package Dependency as a Local Package]]. 

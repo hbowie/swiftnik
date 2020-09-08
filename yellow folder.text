@@ -1,0 +1,9 @@
+Title:  yellow folder
+
+Tags:   Xcode
+
+Body: 
+
+A yellow folder in the project navigator within Xcode indicates a folder/group that fully exists within the project folder. When dragging a folder into the Xcode project navigator, this is the result you will see when you have selected "Copy items if needed" and "Create groups". 
+
+A possible alternative would be a [[blue folder]]. 

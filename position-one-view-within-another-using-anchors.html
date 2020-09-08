@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>position one view within another using anchors | Swiftnik</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<title>position one view within another using anchors | Swiftnik</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="favicon.png" />
 	<link rel="stylesheet" href="mirror/fonts/stylesheet.css" type="text/css" />
 	<link rel="stylesheet" href="mirror/fonts/equity_ta.css" type="text/css" />
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="mirror/css/styles.css" type="text/css" />
 </head>
 <body>
-<div id="page-container">
+	<div id="page-container">
 
 	<header>
 		<p id="site-title">
@@ -24,30 +24,25 @@
 
 	<nav>
 		<ul>
-  		<li><a href="index.html">Home</a></li>
+  		<li><a href="index.html">Index</a></li>
   		<li><a href="intro.html">Intro</a></li>
-  		<li><a href="topics.html">Index</a></li>
 		</ul>
 	</nav>
 
-<div id="content">
-<h3>position one view within another using anchors</h3>
-
-<p><em>AppKit, anchors, views</em></p>
-
+		<div id="content">
+			<h3>position one view within another using anchors</h3>
 
 <p>Cocoa offers a number of different ways to set up your UI layouts. In many cases, you will want a flexible layout that will contract or expand along with the surrounding window, and parent view(s).  </p>
 <p>One way to handle this is by using Anchors to position one view within another. </p>
 <p>See the code snippet for an example. Note that the constants provide some breathing room between your subview and the parent view. Note also that you will need negative numbers for the trailing and bottom anchors in order to achieve a consistent margin around your inner view on all four sides. </p>
 
 
-<hr />
-
-<p>Link: <a href="https://developer.apple.com/documentation/appkit/nsview">https://developer.apple.com/documentation/appkit/nsview</a></p>
-
-
-<p>Sample Code: </p>
-<pre><code>
+			<p>For further info: </p>
+			<ul>
+				<li><a href="https://developer.apple.com/documentation/appkit/nsview">https://developer.apple.com/documentation/appkit/nsview</a></li>
+			</ul>
+			<p>Sample Code: </p>
+			<pre><code>
 // We'll use a grid view as the inner view in this example
 gridView = NSGridView(views: grid)
 
@@ -60,13 +55,14 @@ gridView!.trailingAnchor.constraint(equalTo: parentView.trailingAnchor, constant
 gridView!.topAnchor.constraint(equalTo: parentView.topAnchor, constant: 8).isActive = true
 gridView!.bottomAnchor.constraint(equalTo: parentView.bottomAnchor, constant: -8).isActive = true
 
-</code></pre>
+			</code></pre>
 
-<hr>
-<p>Except where otherwise noted, <cite><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Swiftnik - A Swift Developer's Notebook</span></cite> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://hbowie.net" property="cc:attributionName" rel="cc:attributionURL">Herb Bowie</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+			<hr>
 
-</div>
-</div>
+			<p><a href="index.html"><em>Back to Index =&gt;</em></a></p>
+
+		</div>
+	</div>
 
 </body>
 </html>

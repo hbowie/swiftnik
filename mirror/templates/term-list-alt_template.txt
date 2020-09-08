@@ -1,0 +1,7 @@
+<?output "../terms/terms-alt.txt"?>
+Initial Letter	Lower Case Term	Term	Page Link
+<?nextrec?>
+<?if "=$alt$=" ?>
+=$alt&u1$=	=$alt&l$=	=$alt$=	=$title&f$=.html
+<?endif?>
+<?loop?>

@@ -1,0 +1,11 @@
+Title:  import
+
+Link:   https://docs.swift.org/swift-book/ReferenceManual/Declarations.html
+
+Link 2: https://nshipster.com/import/
+
+Timestamp: 20200831203008
+
+Body: 
+
+An import declaration lets you access symbols that are declared outside the current file. The basic form imports the entire [[module]]; it consists of the `import` keyword followed by a module name.

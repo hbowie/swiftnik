@@ -1,23 +1,39 @@
 module	action	modifier	object	value
+
+<!-- Read and sort all the Swiftnik notes ->>
+
 input	set		xpltags	false
 input	set		dirdepth	1
 input	open	notenik		/Users/hbowie/Sites/swiftnik/
 sort	clear
 sort	add	ascending	Title
 sort	set		params
-template	webroot			/Users/hbowie/Sites/swiftnik/
-template	open			/Users/hbowie/Sites/swiftnik/mirror/templates/index_template.html
+
+<!-- Create tab-delimited text files holding primary and alternate terms -->
+
+template	open			/Users/hbowie/Sites/swiftnik/mirror/templates/term-list-title_template.txt
 template	generate
+template	open			/Users/hbowie/Sites/swiftnik/mirror/templates/term-list-alt_template.txt
+template	generate
+
+<!-- Merge title terms with alt terms -->
+
+input	set		normalization	0
 input	set		xpltags	false
-input	set		dirdepth	1
-input	open	notenik-index		/Users/hbowie/Sites/swiftnik/
-sort	clear
+input	open	file		#PATH#../terms/terms-title.txt
+input	open	file	merge	#PATH#../terms/terms-alt.txt
+output	open	file		#PATH#../terms/terms-combined.txt
+
+<!-- Now let's read in the combined terms file and sort it -->
+
+input	open	file		#PATH#../terms/terms-combined.txt
 sort	add	ascending	Initial Letter
 sort	add	ascending	Lower Case Term
-sort	add	ascending	Page
+sort	add	ascending	Page Link
 sort	set		params
+
 template	webroot			/Users/hbowie/Sites/swiftnik/
 template	open			/Users/hbowie/Sites/swiftnik/mirror/templates/letters_template.html
 template	generate
-template	open			/Users/hbowie/Sites/swiftnik/mirror/templates/topics_template.html
+template	open			/Users/hbowie/Sites/swiftnik/mirror/templates/index_template.html
 template	generate

@@ -1,0 +1,5 @@
+<?output "../terms/terms-title.txt"?>
+Initial Letter	Lower Case Term	Term	Page Link
+<?nextrec?>
+=$title&u1$=	=$title&l$=	=$title$=	=$title&f$=.html
+<?loop?>

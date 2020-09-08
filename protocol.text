@@ -1,5 +1,16 @@
 Title:  protocol
 
+<<<<<<< HEAD
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Protocols.html
+
+Link 2: https://en.wikipedia.org/wiki/Protocol_(object-oriented_programming)
+
+Timestamp: 20200831204540
+
+Body: 
+
+A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality. The protocol can then be adopted by a class, structure, or enumeration to provide an actual implementation of those requirements. Any type that satisfies the requirements of a protocol is said to conform to that protocol.
+=======
 Tags:   Swift, keyword
 
 Link:   https://docs.swift.org/swift-book/LanguageGuide/Protocols.html
@@ -9,3 +20,4 @@ Timestamp: 20200717204754
 Body: 
 
 A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality. The protocol can then be adopted by a class, structure, or enumeration to provide an actual implementation of those requirements. Any [[type]] that satisfies the requirements of a protocol is said to conform to that protocol.
+>>>>>>> a49cb69f4816f47d513daec8b0478d2c715faa5b

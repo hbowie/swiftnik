@@ -15,10 +15,19 @@
 <?include "../includes/navbar.html" ?>
 
 		<div id="content">
-			<h3>All Notes by Title</h3>
-			<p><a href="intro.html">Introduction</a></p>
+			<h3>An Alphabetical Index of Swift Terminology</h3>
+			<p>
+<?include "../includes/letters.html" ?>
+			</p>
+
 <?nextrec?>
-			<p><a href="=$title&f$=.html">=$title$=</a></p>
+<?definegroup 1 =$initial-letter$= ?>
+<?ifendgroup 1 ?>
+<?endif?>
+<?ifnewgroup 1 ?>
+<h3 id="letter-=$initial-letter&l$=">&mdash; =$initial-letter$= &mdash;</h3>
+<?endif?>
+			<p><a href="=$page-link$=">=$term$=</a></p>
 <?loop?>
 			<hr>
 			<p>Except where otherwise noted, <cite><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Swiftnik - A Swift Developer's Notebook</span></cite> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://hbowie.net" property="cc:attributionName" rel="cc:attributionURL">Herb Bowie</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>

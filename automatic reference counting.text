@@ -2,9 +2,13 @@ Title:  automatic reference counting
 
 Tags:   Swift, concept, memory management
 
+Alt:    ARC
+
 Link:   https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html
 
-Index:  automatic reference counting; memory management
+Index:  automatic reference counting; memory management; 
+
+Timestamp: 20200504192313
 
 Body: 
 
