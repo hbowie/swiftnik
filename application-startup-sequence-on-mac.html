@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Assistant Editor | Swiftnik</title>
+	<title>Application Startup Sequence on Mac | Swiftnik</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="favicon.png" />
 	<link rel="stylesheet" href="mirror/fonts/stylesheet.css" type="text/css" />
@@ -30,14 +30,14 @@
 	</nav>
 
 		<div id="content">
-			<h3>Assistant Editor</h3>
+			<h3>Application Startup Sequence on Mac</h3>
 
-<p>The Assistant Editor is a secondary editor that appears next to the primary editor, and can be opened when you have a storyboard open in the primary editor. Use of the Assistant Editor is sometimes necessary in order to connect an interface element in the storyboard to a spot in your Swift code. </p>
-<p>Use any of the following actions to show the Assistant Editor without hiding the storyboard in the Main Editor. </p>
-<ul>
-<li>Menu item View -> Assistant Editor -> Show Assistant Editor </li>
-<li>Keyboard shortcut ALT-CMD-RETURN </li>
-</ul>
+<ol>
+<li>View Controllers viewDidLoad, from the bottom up </li>
+<li>CollectionWindowController windowDidLoad </li>
+<li>AppDelegate applicationDidFinishLaunching </li>
+<li>ViewController viewDidAppear only when the view is actually shown on screen: for a tabbed item, only when the tab is selected! </li>
+</ol>
 
 
 

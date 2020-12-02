@@ -1,0 +1,23 @@
+Title:  Change Primary View Controller for Window
+
+Tags:   IB
+
+Timestamp: 20200912232442
+
+Body: 
+
+In the storyboard:
+
+1. Select View Controller Scene in the document outline and press delete on your keyboard to zap it. 
+
+2. Select the desired new view controller from the Object Library. 
+
+3. Drag the new view controller (split view, for example) out onto the storyboard's canvas. 
+
+4. Select the Window Controller in the document outline.
+
+5. Ctr-Drag from the Window Controller to the new view controller on the canvas. 
+
+6. Once the new view controller glows blue on the canvas, release your pointing device. 
+
+7. When you see a menu appear, click on "window content" to establish a link between the window and the new view controller.

@@ -1,0 +1,15 @@
+Title:  Combining split views
+
+Link:   https://stackoverflow.com/questions/27325369/uisplitviewcontroller-inside-tab-bar
+
+Body: 
+
+Both Split View Controllers and Tab View Controllers generate overall controllers connected to subsidiary controllers for the dependent views. Here's how to combine one within the other:
+
+1. Drag out the outer controller. 
+
+2. Delete the two subsidiary controllers. 
+
+3. Drag out the inner controller.
+
+4. Ctrl drag from the outer controller to the inner controller, and select "view controllers" relationship seque.

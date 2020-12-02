@@ -1,0 +1,22 @@
+Title:  Application Resources
+
+Link:   https://developer.apple.com/documentation/foundation/bundle/1417723-resourcepath
+
+Code: 
+
+let path = Bundle.main.resourcePath!
+
+let path = Bundle.main.resourcePath! + "/notenik-swift-intro"
+
+
+Body: 
+
+All Application Resources (images, text files, etc.) are stored in the Application Bundle's resource path. 
+
+Within the Application Bundle, these can be found within the "Content/Resources" folder. 
+
+Even though you may copy folders full of files into your Xcode project, the folder structure is not preserved within the resource folder; instead, all files end up in a flat list within the Resources folder. 
+
+One way around this is to choose "Create Folder References for any added folders" when dragging a folder into the project. The folder is then blue, and it is a folder in the resource dir!
+
+BTW, Xcode won't pick up dependencies on this. If you change files inside the directory and it's not a known file type, it won't update already present files in the build directory, so you'll have to a make clean before compiling.

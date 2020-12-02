@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Assistant Editor | Swiftnik</title>
+	<title>Change Primary View Controller for Window | Swiftnik</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="favicon.png" />
 	<link rel="stylesheet" href="mirror/fonts/stylesheet.css" type="text/css" />
@@ -30,14 +30,32 @@
 	</nav>
 
 		<div id="content">
-			<h3>Assistant Editor</h3>
+			<h3>Change Primary View Controller for Window</h3>
 
-<p>The Assistant Editor is a secondary editor that appears next to the primary editor, and can be opened when you have a storyboard open in the primary editor. Use of the Assistant Editor is sometimes necessary in order to connect an interface element in the storyboard to a spot in your Swift code. </p>
-<p>Use any of the following actions to show the Assistant Editor without hiding the storyboard in the Main Editor. </p>
-<ul>
-<li>Menu item View -> Assistant Editor -> Show Assistant Editor </li>
-<li>Keyboard shortcut ALT-CMD-RETURN </li>
-</ul>
+<p>In the storyboard: </p>
+<ol>
+<li>
+<p>Select View Controller Scene in the document outline and press delete on your keyboard to zap it. </p>
+</li>
+<li>
+<p>Select the desired new view controller from the Object Library. </p>
+</li>
+<li>
+<p>Drag the new view controller (split view, for example) out onto the storyboard's canvas. </p>
+</li>
+<li>
+<p>Select the Window Controller in the document outline. </p>
+</li>
+<li>
+<p>Ctr-Drag from the Window Controller to the new view controller on the canvas. </p>
+</li>
+<li>
+<p>Once the new view controller glows blue on the canvas, release your pointing device. </p>
+</li>
+<li>
+<p>When you see a menu appear, click on &#8220;window content&#8221; to establish a link between the window and the new view controller. </p>
+</li>
+</ol>
 
 
 

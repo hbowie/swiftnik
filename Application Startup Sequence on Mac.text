@@ -1,0 +1,10 @@
+Title:  Application Startup Sequence on Mac
+
+Timestamp: 20200912234315
+
+Body: 
+
+1. View Controllers viewDidLoad, from the bottom up
+2. CollectionWindowController windowDidLoad
+3. AppDelegate applicationDidFinishLaunching
+4. ViewController viewDidAppear only when the view is actually shown on screen: for a tabbed item, only when the tab is selected!
