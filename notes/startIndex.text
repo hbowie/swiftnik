@@ -1,0 +1,13 @@
+Title:  startIndex
+
+Tags:   Swift, strings
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html
+
+Timestamp: 20200908232601
+
+Body: 
+
+This is a String property that points to the first character in the String. 
+
+Also see [[endIndex]].

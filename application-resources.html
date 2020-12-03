@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Application Resources | Swiftnik</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="stylesheet" href="notes/mirror/fonts/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="notes/mirror/fonts/equity_ta.css" type="text/css" />
+	<link rel="stylesheet" href="notes/mirror/fonts/concourse_t4.css" type="text/css" />
+	<link rel="stylesheet" href="notes/mirror/css/styles.css" type="text/css" />
+</head>
+<body>
+	<div id="page-container">
+
+	<header>
+		<p id="site-title">
+			<a href="index.html">
+				Swiftnik
+			</a>
+		</p>
+		<p id="site-subtitle">A Swift Developer's Notebook</p>
+	</header>
+
+	<nav>
+		<ul>
+  		<li><a href="index.html">Index</a></li>
+  		<li><a href="intro.html">Intro</a></li>
+		</ul>
+	</nav>
+
+		<div id="content">
+			<h3>Application Resources</h3>
+
+<p>All Application Resources (images, text files, etc.) are stored in the Application Bundle's resource path. </p>
+<p>Within the Application Bundle, these can be found within the &#8220;Content/Resources&#8221; folder. </p>
+<p>Even though you may copy folders full of files into your Xcode project, the folder structure is not preserved within the resource folder; instead, all files end up in a flat list within the Resources folder. </p>
+<p>One way around this is to choose &#8220;Create Folder References for any added folders&#8221; when dragging a folder into the project. The folder is then blue, and it is a folder in the resource dir! </p>
+<p>BTW, Xcode won't pick up dependencies on this. If you change files inside the directory and it's not a known file type, it won't update already present files in the build directory, so you'll have to a make clean before compiling. </p>
+
+
+			<p>For further info: </p>
+			<ul>
+				<li><a href="https://developer.apple.com/documentation/foundation/bundle/1417723-resourcepath">https://developer.apple.com/documentation/foundation/bundle/1417723-resourcepath</a></li>
+			</ul>
+			<p>Sample Code: </p>
+			<pre><code>
+let path = Bundle.main.resourcePath!
+
+let path = Bundle.main.resourcePath! + "/notenik-swift-intro"
+
+			</code></pre>
+
+			<hr>
+
+			<p><a href="index.html"><em>Back to Index =&gt;</em></a></p>
+
+		</div>
+	</div>
+
+</body>
+</html>

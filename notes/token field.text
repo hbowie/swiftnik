@@ -1,0 +1,22 @@
+Title:  token field
+
+Tags:   AppKit
+
+Link:   https://developer.apple.com/design/human-interface-guidelines/macos/fields-and-labels/token-fields/
+
+Index:  UI Controls; text; tokens; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+A token field is a type of text field that includes tokens, blocks of text that can be easily selected and manipulated.
+
+Additional Links:
+
+* [Apple Developer Documentation for NSTokenField][l2]
+* [Apple Developer Docs for NSTokenFieldDelegate Protocol][l3]
+
+[l2]: https://developer.apple.com/documentation/appkit/nstokenfield
+
+[l3]: https://developer.apple.com/documentation/appkit/nstokenfielddelegate

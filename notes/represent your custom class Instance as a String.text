@@ -1,0 +1,31 @@
+Title:  represent your custom class Instance as a String
+
+Tags:   Swift, strings
+
+Alt:    CustomStringConvertible
+
+Link:   https://developer.apple.com/documentation/swift/customstringconvertible
+
+Index:  string; 
+
+Code: 
+
+// Identify the Protocol on your Class Definition
+class CustomClass: CustomStringConvertible {
+
+// Then make the String value available when requested
+var description: String {
+	// format the String however you would like
+}
+
+// Then other classes can retrieve the String value
+customObject = CustomClass()
+let str = String(describing: customObject)
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+Types that conform to the CustomStringConvertible protocol can provide their own representation to be used when converting an instance to a string. The String(describing:) initializer is the preferred way to convert an instance of any type to a string. If the passed instance conforms to CustomStringConvertible, the String(describing:) initializer and the print(_:) function use the instance’s custom description property
+

@@ -1,0 +1,36 @@
+<?output "../../../index.html"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Swiftnik | A Swift Developer's Notebook</title>
+<?include "../includes/head-links.html" ?>
+</head>
+<body>
+	<div id="page-container">
+
+<?include "../includes/header.html" ?>
+
+<?include "../includes/navbar.html" ?>
+
+		<div id="content">
+			<h3>An Alphabetical Index of Swift Terminology</h3>
+			<p>
+<?include "../includes/letters.html" ?>
+			</p>
+
+<?nextrec?>
+<?definegroup 1 =$initial-letter$= ?>
+<?ifendgroup 1 ?>
+<?endif?>
+<?ifnewgroup 1 ?>
+<h3 id="letter-=$initial-letter&l$=">&mdash; =$initial-letter$= &mdash;</h3>
+<?endif?>
+			<p><a href="=$page-link$=">=$term$=</a></p>
+<?loop?>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+Title:  closure
+
+Tags:   concept
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Closures.html
+
+Index:  closure; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+*Closures* are self-contained blocks of functionality that can be passed around and used in your code. Closures in Swift are similar to blocks in C and Objective-C and to lambdas in other programming languages.
+
+A closure is a [[reference type]].
+
+See also [[closure expression]].

@@ -1,0 +1,15 @@
+Title:  combo box
+
+Tags:   AppKit
+
+Link:   https://developer.apple.com/documentation/appkit/nscombobox
+
+Index:  combo box; UI controls; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+A Combo Box combines a text entry field with a dropdown list. The user can choose an item from the list, which will then populate the text field, or the user can type a value directly into the text field. 
+
+See the [Ray Wenderlich site](https://www.raywenderlich.com/759-macos-controls-tutorial-part-1-2) for more useful info on this topic.

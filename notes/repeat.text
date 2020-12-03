@@ -1,0 +1,20 @@
+Title:  repeat
+
+Tags:   Swift, loops
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html
+
+Code: 
+
+repeat {
+	// statements go here
+} while // condition goes here
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+The repeat-while loop always performs a single pass through the loop before evaluating the loop's condition. 
+
+Also see [[while]].

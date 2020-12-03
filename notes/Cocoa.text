@@ -1,0 +1,24 @@
+Title:  Cocoa
+
+Tags:   AppKit
+
+Link:   https://en.wikipedia.org/wiki/Cocoa_(API)
+
+Index:  Cocoa, AppKit; 
+
+Code: 
+
+import Cocoa
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+Cocoa is Apple's native object-oriented application programming interface (API) for its desktop operating system macOS.
+
+When importing Cocoa into a Swift application, the following frameworks are implicitly imported. 
+
+* [[AppKit]]
+* CoreData
+* [[Foundation]]

@@ -1,0 +1,21 @@
+Title:  loop
+
+Tags:   Swift
+
+Index:  loop; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+See the following keywords used for establishing a loop:
+
+* [[for]]
+* [[in]]
+* [[repeat]]
+* [[while]]
+
+See the following keywords used to control flow within a loop:
+
+* [[break]]
+* [[continue]]

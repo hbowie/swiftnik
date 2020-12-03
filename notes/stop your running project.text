@@ -1,0 +1,15 @@
+Title:  stop your running project
+
+Tags:   Xcode
+
+Index:  Xcode; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+To stop your running project, use one of the following actions:
+
+* Menu item Product -> Stop
+* Stop Button (solid square)
+* Keyboard shortcut CMD-.

@@ -1,0 +1,12 @@
+Title:  Content
+
+Tags:   vapor
+
+Link:   https://docs.vapor.codes/3.0/vapor/content/
+
+Timestamp: 20200908232601
+
+Body: 
+
+Content is a Vapor protocol that wraps around Codable. 
+

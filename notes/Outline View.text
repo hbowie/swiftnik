@@ -1,0 +1,18 @@
+Title:  Outline View
+
+Alt:    NSOutlineView
+
+Link:   https://developer.apple.com/documentation/appkit/nsoutlineview
+
+Link 2: https://developer.apple.com/design/human-interface-guidelines/macos/windows-and-views/outline-views/
+
+Timestamp: 20200912232811
+
+Body: 
+
+On the Mac, NSOutlineView allows you to create an Outline View. 
+
+Also see:
+
++ [How to use Outline Views in Swift - QT Software](https://qtsoftware.co.uk/programming/swift/solved-how-to-use-outline-views-in-swift-4/)
++ [NSOutlineView on macOS Tutorial - Ray Wenderlich](https://www.raywenderlich.com/1201-nsoutlineview-on-macos-tutorial)

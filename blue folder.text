@@ -1,9 +1,0 @@
-Title:  blue folder
-
-Tags:   Xcode
-
-Body: 
-
-A blue folder within the Xcode project navigator represents a folder reference. This is what results, when copying a folder into a project, when "Copy items if needed" is *not* selected, and when "Create folder references" is selected instead of "Create groups".
-
-The alternative would be a [[yellow folder]]. 

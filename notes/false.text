@@ -1,0 +1,12 @@
+Title:  false
+
+Tags:   Swift, keyword
+
+Link:   https://developer.apple.com/documentation/swift/bool
+
+Timestamp: 20200908232601
+
+Body: 
+
+The keyword `false` is a boolean literal representing one of the two possible values for a [[Bool]] value type. 
+

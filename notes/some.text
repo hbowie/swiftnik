@@ -1,0 +1,12 @@
+Title:  some
+
+Tags:   Swift, keyword
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/OpaqueTypes.html
+
+Timestamp: 20200908232601
+
+Body: 
+
+The `some` keyword precedes a protocol name, and indicates that the called function will always return one specific type that conforms to the named protocol, but in a way that hides the identity of that specific type from the caller. 
+

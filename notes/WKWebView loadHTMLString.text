@@ -1,0 +1,13 @@
+Title:  WKWebView loadHTMLString
+
+Tags:   WKWebView.loadHTMLString
+
+Link:   https://stackoverflow.com/questions/37013812/wkwebview-wont-loadhtmlstring
+
+Timestamp: 20200912234519
+
+Body: 
+
+Check your Xcode Project > Target > Capabilities > App Sandbox.
+
+Make sure you've CHECKED the NetWork  Incoming &  Outgoing connections.

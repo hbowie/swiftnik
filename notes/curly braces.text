@@ -1,0 +1,13 @@
+Title:  curly braces
+
+Tags:   keyword
+
+Alt:    {}
+
+Timestamp: 20200908232601
+
+Body: 
+
+*Curly braces* are generally used to enclose a block containing one or more statements. 
+
+Note, though, that for an inline [[closure expression]], the parameters and return type are written inside the curly braces, not outside of them, which is why the keyword [[in]] must be used in this context to indicate the beginning of the body.

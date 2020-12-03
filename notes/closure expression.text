@@ -1,0 +1,29 @@
+Title:  closure expression
+
+Tags:   concept
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Closures.html
+
+Index:  closure expression; 
+
+Code: 
+
+reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in return s1 > s2 } )
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+Closure expressions are unnamed [closures](@closure) written in a lightweight syntax that can capture values from their surrounding context.
+
+Closure expressions are enclosed within [[curly braces]].
+
+See also:
+
+* [[inferring type from context]]
+* [[implicit returns from single-expression closures]]
+* [[shorthand argument names]]
+* [[inferring shorthand argument names from context]]
+* [[trailing closure]]
+* [[capturing values]]

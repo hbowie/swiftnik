@@ -1,0 +1,20 @@
+Title:  typealias
+
+Tags:   keyword
+
+Link:   https://docs.swift.org/swift-book/ReferenceManual/Declarations.html#grammar_typealias-declaration
+
+Code: 
+
+typealias NewName = ExistingName
+
+typealias Codable = Decodable & Encodable
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+A type alias declaration introduces a named alias of an existing type into your program. 
+
+After a type alias is declared, the aliased name can be used instead of the existing type everywhere in your program. The existing type can be a named type or a compound type. Type aliases do not create new types; they simply allow a name to refer to an existing type.

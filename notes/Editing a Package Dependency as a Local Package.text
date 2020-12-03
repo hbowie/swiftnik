@@ -1,0 +1,17 @@
+Title:  Editing a Package Dependency as a Local Package
+
+Tags:   package
+
+Link:   https://developer.apple.com/documentation/swift_packages/editing_a_package_dependency_as_a_local_package
+
+Timestamp: 20200824210247
+
+Body: 
+
+After [[Adding Package Dependencies to Your App]], you may wish to additionally be able to edit these other packages locally. 
+
+Don’t remove your package dependency; adding a local package overrides the package dependency with the same name. Xcode uses the package dependency again when you remove the local package from your project.
+
+Select the Swift package’s folder in Finder and drag it into the Project navigator for your app. This action adds your dependency’s Swift package as a local package to your project.
+
+When performing the drag and drop, make sure the target project is the only project open in XCode at the time.

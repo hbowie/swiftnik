@@ -1,0 +1,14 @@
+Title:  View
+
+Tags:   SwiftUI
+
+Link:   https://developer.apple.com/documentation/swiftui/view
+
+Index:  View; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+`View` is the basic SwiftUI protocol that must be adoped by anything you draw on the screen. 
+

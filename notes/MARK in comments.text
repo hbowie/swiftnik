@@ -1,0 +1,15 @@
+Title:  MARK in comments
+
+Link:   https://stackoverflow.com/questions/35963128/swift-understanding-mark
+
+Code: 
+
+// MARK: This is a comment
+
+
+Timestamp: 20201117173811
+
+Body: 
+
+When using this syntax (plus // TODO: and // FIXME:), you can get some extra information to show up in the Xcode quick jump bar.
+

@@ -1,0 +1,14 @@
+Title:  Bool
+
+Tags:   Swift, keyword
+
+Link:   https://developer.apple.com/documentation/swift/bool
+
+Index:  Bool; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+A value type whose instances are either [[true]] or [[false]].
+

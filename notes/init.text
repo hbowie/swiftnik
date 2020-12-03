@@ -1,0 +1,19 @@
+Title:  init
+
+Tags:   Swift
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Initialization.html
+
+Code: 
+
+init() {
+    // perform some initialization here
+}
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+An initializer is a special method that can be called to create a new instance of a particular type. Note that the keyword *init* replaces both the *func* keyword and the function name, when compared to other method calls. 
+

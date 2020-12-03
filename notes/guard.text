@@ -1,0 +1,31 @@
+Title:  guard
+
+Tags:   keyword
+
+Link:   https://docs.swift.org/swift-book/ReferenceManual/Statements.html#grammar_guard-statement
+
+Code: 
+
+guard *condition* else {
+    *statements*
+}
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+A guard statement is used to transfer program control out of a scope if one or more conditions aren’t met.
+
+A guard statement offers a shorthand way of testing for conditions that must be met in order to proceed, and then exiting if the conditions aren't met. 
+
+The condition must be of type `Bool` or something that evaluates to true or false; or the condition can be an [[Optional Binding]] declaration. 
+
+If the test fails, then the statements to be executed must transfer control using one of the following statements:
+
+* return
+* break
+* continue
+* throw
+
+The other possibility for satisfying this requirement is to call a function with the Never return type.

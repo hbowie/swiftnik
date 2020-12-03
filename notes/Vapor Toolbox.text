@@ -1,0 +1,25 @@
+Title:  Vapor Toolbox
+
+Tags:   vapor
+
+Code: 
+
+eval "$(curl -sL check.vapor.sh)"
+
+brew tap vapor/tap
+brew install vapor/tap/vapor
+
+brew upgrade vapor/tap/vapor
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+Execute the first Terminal command above to determine if [[Vapor]] can be installed on your system. If no messages, then you're good to go. 
+
+You will need [[Homebrew]] to install Vapor. 
+
+Execute the next two commands above to perform the installation. 
+
+Once Vapor is installed, you can upgrade it to later versions using the fourth command above.

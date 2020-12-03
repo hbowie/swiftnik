@@ -1,0 +1,15 @@
+Title:  AppKit
+
+Tags:   AppKit
+
+Link:   https://developer.apple.com/documentation/appkit
+
+Index:  AppKit; frameworks; 
+
+Timestamp: 20200908224550
+
+Body: 
+
+AppKit is a [[framework]] containing all the objects you need to implement the user interface for a macOS app. 
+
+AppKit is automatically included when you import [[Cocoa]].

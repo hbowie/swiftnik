@@ -1,0 +1,14 @@
+Title:  security-scoped bookmark
+
+Tags:   Foundation
+
+Link:   https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AppSandboxInDepth/AppSandboxInDepth.html
+
+Link 2: https://developer.apple.com/documentation/foundation/url
+
+Timestamp: 20200908232601
+
+Body: 
+
+A device to preserve access to a resource, without forcing the user to reselect and reauthorize before the app can access. 
+

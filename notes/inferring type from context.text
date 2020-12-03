@@ -1,0 +1,18 @@
+Title:  inferring type from context
+
+Tags:   concept
+
+Link:   https://docs.swift.org/swift-book/LanguageGuide/Closures.html
+
+Code: 
+
+reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } )
+
+
+Timestamp: 20200908232601
+
+Body: 
+
+When a [[closure expression]] is passed as an argument to a method, the parameter types can be inferred, and so need not be explicitly declared. 
+
+Since the return type can be inferred, the [[return arrow]] and the parentheses around the names of the parameters can also be omitted.

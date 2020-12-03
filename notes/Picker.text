@@ -1,0 +1,14 @@
+Title:  Picker
+
+Tags:   SwiftUI
+
+Link:   https://developer.apple.com/documentation/swiftui/picker
+
+Link 2: https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-picker-and-read-values-from-it
+
+Timestamp: 20200908232601
+
+Body: 
+
+A SwiftUI [[View]] that allows users to pick from a list of values. 
+

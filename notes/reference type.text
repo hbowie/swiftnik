@@ -1,0 +1,17 @@
+Title:  reference type
+
+Tags:   concept
+
+Timestamp: 20200908232601
+
+Body: 
+
+Some types in Swift are reference types, while others are [[value type]]s. 
+
+When a reference type is assigned or passed via an argument, it is a reference to the original type that is passed, so that any further changes are reflected in the original. 
+
+The following types in Swift are reference types:
+
+* [[class]]
+* [[closure]]
+* [[function]]

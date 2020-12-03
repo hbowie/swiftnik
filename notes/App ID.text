@@ -1,0 +1,15 @@
+Title:  App ID
+
+Tags:   Apple
+
+Link:   https://help.apple.com/developer-account/#/dev1b35d6f83
+
+Index:  App ID; identifiers; 
+
+Timestamp: 20200908232601
+
+Body: 
+
+An *App ID* identifies your app in a provisioning profile. It is a two-part string used to identify one or more apps from a single development team. 
+
+Also see [[Bundle ID]].

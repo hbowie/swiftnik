@@ -1,0 +1,36 @@
+Title:  Intro
+
+Tags:   intro
+
+Timestamp: 20200908232601
+
+Body: 
+
+Sometime around the beginning of 2019 I decided I wanted to learn the Swift programming language and use it to write my first completely native Mac application. 
+
+You can find out more about the application I developed at [Notenik.net][nnknet], and see the source code on [GitHub][ghub]. 
+
+In order to accomplish my goal I had to learn three different domains:
+
+1. The Swift Programming Language itself;
+2. Xcode, Apple's Integrated Development Environment, the tool I would use to write, build and test my code; 
+3. Cocoa, containing all the various libraries and APIs I would need in order to interact with the Mac file system and with the user. 
+
+I rapidly discovered that all three of these domains are moving targets. 
+
+And I also discovered that complete and current documentation on these three domains is not provided by Apple. Instead, there are vast troves of tutorials, videos and webpages, many of them explicitly identified as no longer being maintained, with others sharing that state implicitly. 
+
+Of course, there are various books, classes and websites offered by third parties that all seem to offer assistance, but again -- thanks to Apple's continuous efforts to modernize and improve its development tools -- few of these can be trusted as completely up-to-date and reliable. 
+
+The bottom line was that figuring out how to actually create any useful functionality turned into something like a [Colossal Cave Adventure][ccave], in which I was constantly stumbling across new branches, having to guess answers to various puzzles, and then discovering, bit by bit, new treasures to add to my growing trove. 
+
+Like any good adventurer exploring a new and complex territory, of course, I left bits of string behind me to remind me of the successful paths I had trod. And as I began to accumulate these, I gathered them together into a collection of notes, using my own app, Notenik, as the tool for collecting and organizing and accessing these bits of information. 
+
+I'm partially keeping these notes for my own use -- I can't possibly remember all this stuff, especially since I'm strictly an amateur, and still have a lot of things I want to do other than code. But I'm also publishing this collection on [GitHub](https://github.com/hbowie/swiftnik) and as as a [separate website](https://swiftnik.com), in case they might accidentally help someone else as well.
+
+
+[ccave]: https://en.wikipedia.org/wiki/Colossal_Cave_Adventure
+
+[ghub]: https://github.com/hbowie/notenik-swift
+
+[nnknet]: https://notenik.net

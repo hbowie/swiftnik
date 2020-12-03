@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Add Custom Controller and Specialized View | Swiftnik</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="stylesheet" href="notes/mirror/fonts/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="notes/mirror/fonts/equity_ta.css" type="text/css" />
+	<link rel="stylesheet" href="notes/mirror/fonts/concourse_t4.css" type="text/css" />
+	<link rel="stylesheet" href="notes/mirror/css/styles.css" type="text/css" />
+</head>
+<body>
+	<div id="page-container">
+
+	<header>
+		<p id="site-title">
+			<a href="index.html">
+				Swiftnik
+			</a>
+		</p>
+		<p id="site-subtitle">A Swift Developer's Notebook</p>
+	</header>
+
+	<nav>
+		<ul>
+  		<li><a href="index.html">Index</a></li>
+  		<li><a href="intro.html">Intro</a></li>
+		</ul>
+	</nav>
+
+		<div id="content">
+			<h3>Add Custom Controller and Specialized View</h3>
+
+<ol>
+<li>
+<p>Create a New File, using macOS Cocoa Class as a subclass of NSViewController. Don't create a XIB file. Give it a meaningful name. </p>
+</li>
+<li>
+<p>Create the new file within your project name, with a yellow folder next to it for the Group. If it says your project name with a blue icon next to it, then be sure to change it to yellow. </p>
+</li>
+<li>
+<p>In the storyboard's document outline, select the view controller you wish to customize, then press Alt-Cmd-3 to show the Identity Inspector on the right. Change the class from the default NSViewController to the name of your new subclass. </p>
+</li>
+<li>
+<p>Search in the Object Library (Cmd-Shift-L) for a specialized view (such as NSTableView). </p>
+</li>
+<li>
+<p>Drag the new specialized view out onto the view where you'd like to see in on the Storyboard. </p>
+</li>
+<li>
+<p>Move it so that is is flush against the top-left corner of the view controller. </p>
+</li>
+<li>
+<p>Click and drag the bottom-right corner of the specialized view so that it completely fills its view controller. </p>
+</li>
+<li>
+<p>Adjust constraints. Select the Scene in the document outline, then go to the Editor menu, and choose Resolve Auto Layout Issues > Reset to Suggested Constraints. </p>
+</li>
+<li>
+<p>Customize the specialized view in the Attributes Inspector (Alt-Cmd-4). </p>
+</li>
+<li>
+<p>Select your new specialized view in the document outline, then Ctrl-drag from there to your custom view controller. Choose data source from the menu that appears. Repeat and choose delegate the second time. </p>
+</li>
+<li>
+<p>Now select the custom view controller in the document outline. </p>
+</li>
+<li>
+<p>Press Alt-Cmd-Return to activate the Assistant Editor. Make sure the Assistant Editor is showing you the code for your custom view controller. </p>
+</li>
+<li>
+<p>Using the document outline, Ctrl-drag from the specialized view into your code. </p>
+</li>
+<li>
+<p>When you release, create an outlet, with a strong reference. </p>
+</li>
+</ol>
+
+
+
+			<hr>
+
+			<p><a href="index.html"><em>Back to Index =&gt;</em></a></p>
+
+		</div>
+	</div>
+
+</body>
+</html>
